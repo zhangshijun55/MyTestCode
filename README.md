@@ -16,14 +16,17 @@ Gitee（码云地址）: https://gitee.com/gongjianbo/MyTestCode
 
 - [说明](#说明)
 - [Qt Demo](#Qt)
+- [Qt6 Demo](#Qt6)
 - [QML Demo](#QML)
+- [QML6 Demo](#QML6)
 - [Cpp Demo](#Cpp)
 - [Python Demo](#Python)
 - [其他](#其他)
 
 # 说明
 
-- 目前主要使用 Win10 / Win11 + MSVC 2019 / 2022 + Qt 5.15.2 进行开发。一些老的代码可能使用 Qt 5.12 或者更早的版本；对于 Qt 6.x 的代码后续会拆分开来，目前是命名中标记上 Qt6
+- 主要使用 Win10 / Win11 + VS2019 / 2022 + Qt5.15.2 / Qt6 进行开发，一些老的代码可能使用 Qt 5.12 或者更早的版本
+- Qt / QML 目录存放的主要是 Qt5 代码，Qt6 / QML6 目录则存放 Qt6 代码
 - 部分链接不是本仓库的内容，只是为了补全完整性，所以放到了一起。也有部分代码没有整理到列表中
 - 欢迎反馈问题
 
@@ -91,6 +94,10 @@ Gitee（码云地址）: https://gitee.com/gongjianbo/MyTestCode
 - lodepng / stb_image / fpng / QImage 读写 png 速度测试 [[Code](./Qt/TestQt_20241017_PNG/)] 
 - grpc 同步模式练习（不含库文件） [[Code](./Qt/TestQt_20240511_GRPC/)] 
 
+# Qt6
+
+- QPromise / QFuture 多线程任务管理 [[Code](./Qt6/TestQt_20251220_Future/)] 
+
 # QML 
 
 - QML 组件样式自定义：https://github.com/gongjianbo/QmlComponentStyle
@@ -147,6 +154,8 @@ Gitee（码云地址）: https://gitee.com/gongjianbo/MyTestCode
 - 测试结构体在 QML 中的释放问题 [[Code](./Qml/TestQml_20240823_Struct/)]
 - Qt6 QML TreeView 基本使用 [[Code](./Qml/TestQml_20220422_Qt6TreeView/)] [[Blog](https://blog.csdn.net/gongjianbo1992/article/details/124373674)]
 - Qt6 QML 日历样式自定义 [[Code](./Qml/TestQml_20220416_Qt6Calendar/)] [[Blog](https://blog.csdn.net/gongjianbo1992/article/details/124212915)]
+
+# QML6
 
 # Cpp 
 
