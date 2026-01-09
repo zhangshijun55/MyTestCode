@@ -5,12 +5,12 @@ ListModel::ListModel(QObject *parent)
     : QAbstractListModel(parent)
 {
     modelData = QStringList{QObject::tr("第一项"),QObject::tr("第二项"),QObject::tr("第三项")};
-    //connect(Translator::getInstance(), &Translator::languageChanged, this,[this]{
-    //    //emit dataChanged(index(0,0), index(rowCount()-1,0));
-    //    beginResetModel();
-    //    modelData = QStringList{QObject::tr("第一项"),QObject::tr("第二项"),QObject::tr("第三项")};
-    //    endResetModel();
-    //});
+    // connect(Translator::getInstance(), &Translator::languageChanged, this,[this]{
+    //     // emit dataChanged(index(0,0), index(rowCount()-1,0));
+    //     beginResetModel();
+    //     modelData = QStringList{QObject::tr("第一项"),QObject::tr("第二项"),QObject::tr("第三项")};
+    //     endResetModel();
+    // });
 }
 
 int ListModel::rowCount(const QModelIndex &parent) const
