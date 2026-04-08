@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>setting.png</file>
+        <file>setting.svg</file>
+        <file>setting@2x.png</file>
+    </qresource>
+</RCC>

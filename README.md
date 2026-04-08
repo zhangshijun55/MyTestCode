@@ -68,6 +68,7 @@ Gitee（码云地址）: https://gitee.com/gongjianbo/MyTestCode
 - Qt zip 读写类 QZipReader/QZipWriter [[Code](./Qt/TestQt_20240226_QZip/)]
 - Qt 获取 DPI 缩放比 [[Code](./Qt/TestQt_20231221_Dpi/)] [[Blog](https://blog.csdn.net/gongjianbo1992/article/details/135128484)]
 - Qt DPI 缩放测试 [[Code](./Qt/TestQt_20230529_DpiScaleTest/)]
+- QSS 图片 DPI 缩放测试 [[Code](./Qt/TestQt_20260407_QssImage/)]
 - Qt Widgets 换肤 [[Code](./Qt/QtSwitchSkin/)] [[Blog](https://blog.csdn.net/gongjianbo1992/article/details/106608353)]
 - QtAV 库的使用 [[Code](./Qt/QtAV/)] [[Blog](https://blog.csdn.net/gongjianbo1992/article/details/94631123)]
 - QScintilla 文本编辑控件 [[Code](./Qt/QScintilla/)] [[Blog](https://blog.csdn.net/gongjianbo1992/article/details/100828180)]
